@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Istok+Web|Josefin+Slab:600|Luckiest+Guy|Merienda:700|Roboto+Mono|Work+Sans');
+
+
+h1{
+    /* font-family: 'Inconsolata', monospace; */
+    font-size: 5rem;
+}
+
+body{
+    /* font-family: 'Istok Web', sans-serif; */
+    padding: 0rem;
+    margin: 0rem;
+}
+
+header{
+    padding: 0rem;
+    margin: 0rem;
+}
+
+main{
+    /* margin: 3rem; */
+    /* border: 1px solid #059e63; */
+}
+
+nav{
+    height: 4.5rem;
+}
+
+.navbar-toggler{
+    transition: all 1000ms ease-out;
+    background-color: transparent;
+}
+
+.navbar-brand{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2.5rem;
+    color: lightcoral !important;
+}
+
+.nav-link{
+    font-family: 'Merienda', cursive;
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+
+.active .nav-link{
+    color: black !important;
+}
+
+.nav-link:hover{
+    color: #059e63 !important;
+    /* border: 1px solid #059e63;
+    border-radius: 4rem;  */
+}
+
+.container-fluid{
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+.site-content{
+    background: url("../img/51.jpg") no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 700px;
+    /* background-attachment: fixed; */
+    /* display: inline-block; */
+    /* background-image: url("../img/2.jpg");
+    background-attachment: fixed;
+    background-size: cover; */
+}
+
+.site-title{
+    font-family: 'Inconsolata', monospace;
+    font-size: 4rem;
+    color: darkslategray;
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 3%;
+}
+
+.site-description{
+    font-family: 'Merienda', cursive;
+    font-size: 1rem;
+    color: darkslategray;
+    text-align: center;
+    margin-bottom: 42%;
+}
+
+/* .container{
+    width: 100%;
+    margin: 1rem;
+} */
+
+.heading-1{
+    font-family: 'Inconsolata', monospace;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    font-size: 4rem;
+    /* text-shadow: 2px -2px slategray; */
+    box-shadow: 2px 1px 15px slategray inset;
+}
+
+.icon-small i{
+    float: left;
+    margin-bottom: 3%;
+}
+
+.fa-sass{
+    color: #CD6799;
+}
+
+.para-small{
+    clear: left;
+    color: darkslategray;
+}
