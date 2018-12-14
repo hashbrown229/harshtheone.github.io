@@ -224,6 +224,12 @@ nav{
     color: olivedrab;
 }
 
+.copyrights{
+    font-family: 'Merienda', cursive;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
 nav > ul {
     width: 100%;
     max-width: 100%;
