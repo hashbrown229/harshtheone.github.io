@@ -35,19 +35,21 @@ nav{
     font-family: 'Luckiest Guy', cursive;
     font-size: 2.5rem;
     color: lightcoral !important;
+    /* vertical-align: middle; */
 }
 
-.nav-link{
+.nav-link, .footer-nav-link{
     font-family: 'Merienda', cursive;
     font-size: 1.3rem;
     margin: 1rem;
+    text-decoration: none;
 }
 
-.active .nav-link{
+.active .nav-link, .active .footer-nav-link{
     color: black !important;
 }
 
-.nav-link:hover{
+.nav-link:hover, .footer-nav-link:hover{
     color: #059e63 !important;
     /* border: 1px solid #059e63;
     border-radius: 4rem;  */
@@ -58,11 +60,13 @@ nav{
     margin-right: 0rem;
 }
 
-.site-content{
-    background: url("../img/51.jpg") no-repeat;
+.bg-image{
+    background: url("../img/1.jpeg") no-repeat;
     background-size: 100% 100%;
     width: 100%;
-    height: 700px;
+    height: 600px;
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
     /* background-attachment: fixed; */
     /* display: inline-block; */
     /* background-image: url("../img/2.jpg");
@@ -70,33 +74,61 @@ nav{
     background-size: cover; */
 }
 
+.header-content{
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 60%;
+  padding: 30px;
+  text-align: center;
+}
+
+.avatar{
+    /* background-image: url("../img/3.jpg"); */
+    /* margin-top: 7%; */
+    height: 145px;
+    width: 145px;
+    border-radius: 50%;
+    align-content: center;
+}
+
 .site-title{
     font-family: 'Inconsolata', monospace;
     font-size: 4rem;
-    color: darkslategray;
-    text-align: center;
-    margin-top: 25%;
-    margin-bottom: 3%;
+    /* color: darkslategray; */
+    /* text-align: center; */
+    /* margin-top: 2%; */
+    margin-bottom: 0px;
 }
 
 .site-description{
     font-family: 'Merienda', cursive;
     font-size: 1rem;
-    color: darkslategray;
-    text-align: center;
-    margin-bottom: 42%;
+    font-style: normal;
+    /* font-weight: px; */
+    /* color: darkslategray; */
+    /* color: whitesmoke; */
+    /* text-align: center; */
+    margin-bottom: 0px;
 }
 
-/* .container{
+.home-container{
     width: 100%;
-    margin: 1rem;
-} */
+    margin-bottom: 2rem;
+}
 
 .heading-1{
     font-family: 'Inconsolata', monospace;
     margin-top: 10%;
     margin-bottom: 8%;
-    font-size: 4rem;
+    font-size: 3rem;
     /* text-shadow: 2px -2px slategray; */
     box-shadow: 2px 1px 15px slategray inset;
 }
@@ -106,11 +138,101 @@ nav{
     margin-bottom: 3%;
 }
 
+.cintainer-row{
+    margin-top: 2rem;
+}
+
+.col-md-6{
+    /* margin: 1rem; */
+}
+
+.column-border{
+    border: 3px solid slategray;
+        border-top: 3px;
+        border-radius: 5px;
+}
+
+.circle-icon {
+    padding:15px;
+    border-radius: 50%;
+    color: whitesmoke;
+}
+
 .fa-sass{
     color: #CD6799;
+    height: 95px;
+}
+
+.fa-node{
+    color: mediumseagreen;
+    height: 95px;
+}
+
+.fa-python{
+    color: black;
+    width: 100px;
+}
+
+.fa-php{
+    color: #E6C900;
+}
+
+.fa-html5{
+    background-color: steelblue;
+    width: 100px;
+}
+
+.fa-java{
+    color: crimson;
+}
+
+.title-small{
+    text-align: left;
+    padding-left: 9rem;
+    padding-top: 1.8rem;
 }
 
 .para-small{
     clear: left;
     color: darkslategray;
+    text-align: justify;
+}
+
+
+
+.main-footer{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: cadetblue;
+    padding: 20px;
+    justify-content: center;
+}
+
+nav > ul {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    border-radius: 5px;
+}
+
+ul.mainnav {
+    display: flex;
+    flex-flow: column;
+    padding: 2rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+.nav-item{
+    display: flex;
+    
+    /* margin: 1rem 0 1rem 0;
+    border: 1px solid black;
+    border-radius: 25px; */
+}
+
+.footer-navbar-ul{
+    margin-bottom: 0px;
+    padding-left: 0px;
 }
