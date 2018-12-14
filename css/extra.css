@@ -1,0 +1,17 @@
+.site-title{
+    font-family: 'Inconsolata', monospace;
+    font-size: 4rem;
+    /* color: darkslategray; */
+    /* text-align: center; */
+    /* margin-top: 2%; */
+    /* margin-bottom: 3%; */
+}
+
+.site-description{
+    font-family: 'Merienda', cursive;
+    font-size: 1rem;
+    /* color: darkslategray; */
+    /* color: whitesmoke; */
+    /* text-align: center; */
+    /* margin-bottom: 42%; */
+}
