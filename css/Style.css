@@ -57,7 +57,7 @@ nav{
     border-radius: 4rem;  */
 }
 
-.container-fluid{
+.container-fluid, .site-content{
     height: 600px;
 }
 
@@ -130,7 +130,7 @@ nav{
 .heading-1{
     font-family: 'Inconsolata', monospace;
     margin-top: 10%;
-    margin-bottom: 8%;
+    margin-bottom: 5%;
     font-size: 3rem;
     /* text-shadow: 2px -2px slategray; */
     box-shadow: 2px 1px 15px slategray inset;
@@ -142,7 +142,7 @@ nav{
 }
 
 .cintainer-row{
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 .col-md-6{
@@ -153,6 +153,8 @@ nav{
     border: 3px solid slategray;
         border-top: 3px;
         border-radius: 5px;
+        margin-top: 1.5rem;
+        
 }
 
 .circle-icon {
@@ -201,15 +203,25 @@ nav{
     text-align: justify;
 }
 
-
-
 .main-footer{
     width: 100%;
     height: auto;
     margin: auto;
     background: cadetblue;
-    padding: 20px;
+    padding: 2rem;
     justify-content: center;
+}
+
+.page-foter{
+    text-align: center;
+}
+
+.footer-icon{
+    color: darkslategrey;
+}
+
+.footer-icon:hover{
+    color: olivedrab;
 }
 
 nav > ul {
