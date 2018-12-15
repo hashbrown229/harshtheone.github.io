@@ -1,55 +1,58 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Istok+Web|Josefin+Slab:600|Luckiest+Guy|Merienda:700|Roboto+Mono|Work+Sans');
 
 
-h1{
+h1 {
     /* font-family: 'Inconsolata', monospace; */
     font-size: 5rem;
 }
 
-body{
+body {
     /* font-family: 'Istok Web', sans-serif; */
     padding: 0rem;
     margin: 0rem;
 }
 
-header{
+header {
     padding: 0rem;
     margin: 0rem;
 }
 
-main{
+main {
     /* margin: 3rem; */
     /* border: 1px solid #059e63; */
 }
 
-nav{
+nav {
     height: 4.5rem;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     transition: all 1000ms ease-out;
     background-color: transparent;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-family: 'Luckiest Guy', cursive;
     font-size: 2.5rem;
     color: lightcoral !important;
     /* vertical-align: middle; */
 }
 
-.nav-link, .footer-nav-link{
+.nav-link,
+.footer-nav-link {
     font-family: 'Merienda', cursive;
     font-size: 1.3rem;
     margin: 1rem;
     text-decoration: none;
 }
 
-.active .nav-link, .active .footer-nav-link{
+.active .nav-link,
+.active .footer-nav-link {
     color: black !important;
 }
 
-.nav-link:hover, .footer-nav-link:hover{
+.nav-link:hover,
+.footer-nav-link:hover {
     color: #059e63 !important;
     transition: all 0.4s ease;
     transform: translateX(5px);
@@ -57,17 +60,18 @@ nav{
     border-radius: 4rem;  */
 }
 
-.container-fluid, .site-content{
+.container-fluid,
+.site-content {
     height: 600px;
 }
 
-.bg-image{
+.bg-image {
     background: url("../img/1.jpeg") no-repeat;
     background-size: 100% 100%;
     width: 100%;
     height: 600px;
     filter: blur(8px);
-  -webkit-filter: blur(8px);
+    -webkit-filter: blur(8px);
     /* background-attachment: fixed; */
     /* display: inline-block; */
     /* background-image: url("../img/2.jpg");
@@ -75,34 +79,39 @@ nav{
     background-size: cover; */
 }
 
-.header-content{
-    background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  /* position: absolute; */
-  position: relative;
-  /* top: 50%; */
-  margin-top: -300px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 60%;
-  padding: 30px;
-  text-align: center;
+.header-content {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    /* position: absolute; */
+    position: relative;
+    /* top: 50%; */
+    margin-top: -300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 60%;
+    padding: 30px;
+    text-align: center;
 }
 
-.avatar{
+.avatar {
     /* background-image: url("../img/3.jpg"); */
     /* margin-top: 7%; */
-    height: 250px;
-    width: 250px;
+    height: 260px;
+    width: 260px;
+    max-height: 100%;
+    max-width: 100%;
     border-radius: 50%;
-    align-content: center;
+    vertical-align: middle;
+/*    align-content: center;*/
 }
 
-.site-title{
+.site-title {
     font-family: 'Inconsolata', monospace;
     font-size: 4rem;
     /* color: darkslategray; */
@@ -111,7 +120,7 @@ nav{
     margin-bottom: 0px;
 }
 
-.site-description{
+.site-description {
     font-family: 'Merienda', cursive;
     font-size: 1rem;
     font-style: normal;
@@ -122,12 +131,12 @@ nav{
     margin-bottom: 0px;
 }
 
-.home-container{
+.home-container {
     width: 100%;
     margin-bottom: 2rem;
 }
 
-.heading-1{
+.heading-1 {
     font-family: 'Inconsolata', monospace;
     margin-top: 10%;
     margin-bottom: 5%;
@@ -136,74 +145,74 @@ nav{
     box-shadow: 2px 1px 15px slategray inset;
 }
 
-.icon-small i{
+.icon-small i {
     float: left;
     margin-bottom: 3%;
 }
 
-.cintainer-row{
+.cintainer-row {
     /* margin-top: 2rem; */
 }
 
-.col-md-6{
+.col-md-6 {
     /* margin: 1rem; */
 }
 
-.column-border{
+.column-border {
     border: 3px solid slategray;
-        border-top: 3px;
-        border-radius: 5px;
-        margin-top: 1.5rem;
-        
+    border-top: 3px;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+
 }
 
 .circle-icon {
-    padding:15px;
+    padding: 15px;
     border-radius: 50%;
     color: whitesmoke;
 }
 
-.fa-sass{
+.fa-sass {
     color: #CD6799;
     height: 95px;
 }
 
-.fa-node{
+.fa-node {
     color: mediumseagreen;
     height: 95px;
 }
 
-.fa-python{
+.fa-python {
     color: black;
     width: 100px;
 }
 
-.fa-php{
+.fa-php {
     color: #E6C900;
 }
 
-.fa-html5{
+.fa-html5 {
     background-color: steelblue;
     width: 100px;
 }
 
-.fa-java{
+.fa-java {
     color: crimson;
 }
 
-.title-small{
+.title-small {
     text-align: left;
     padding-left: 9rem;
     padding-top: 1.8rem;
 }
 
-.para-small{
+.para-small {
     clear: left;
     color: darkslategray;
     text-align: justify;
 }
 
-.main-footer{
+.main-footer {
     width: 100%;
     height: auto;
     margin: auto;
@@ -212,19 +221,19 @@ nav{
     justify-content: center;
 }
 
-.page-foter{
+.page-foter {
     text-align: center;
 }
 
-.footer-icon{
+.footer-icon {
     color: darkslategrey;
 }
 
-.footer-icon:hover{
+.footer-icon:hover {
     color: olivedrab;
 }
 
-.copyrights{
+.copyrights {
     font-family: 'Merienda', cursive;
     font-size: 1.1rem;
     text-decoration: none;
@@ -245,15 +254,72 @@ ul.mainnav {
     border-radius: 5px;
 }
 
-.nav-item{
+.nav-item {
     display: flex;
-    
+
     /* margin: 1rem 0 1rem 0;
     border: 1px solid black;
     border-radius: 25px; */
 }
 
-.footer-navbar-ul{
+.footer-navbar-ul {
     margin-bottom: 0px;
     padding-left: 0px;
+}
+
+.card-img-top {
+    height: 180px;
+    width: 100%;
+    display: block;
+}
+
+.card-flip {
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+.card-flip:hover .flip,
+.card-flip.hover .flip {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.card-flip,
+.front,
+.back {
+    width: 100%;
+    height: 480px;
+}
+
+.flip {
+    transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.front,
+.back {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.front {
+    z-index: 2;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+
+.back {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.flip_image {
+    height: 180px;
+    width: 100%;
+    display: block;
 }
