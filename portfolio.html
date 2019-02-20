@@ -9,22 +9,28 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/Style.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/responsive-nav.css">
+    <script src="js/responsive-nav.js"></script>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-light">
 
+        <!--
+        <nav class="navbar navbar-expand navbar-light">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle Navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse ml-4" id="navbarMenu">
+            
+
+            <div class="navbar-brand mr-4 disabled">Port<span style="color:#00E8E8;">folio</span></div>
+               <nav class="collapse navbar-collapse ml-4">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a href="home.html" class="nav-link">Home</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a href="portfolio.html" class="nav-link">Profile</a>
                     </li>
                     <li class="nav-item">
@@ -32,11 +38,26 @@
                     </li>
                 </ul>
 
-            </div>
-
-            <div class="navbar-brand mr-4 disabled">Port<span style="color:#00E8E8;">folio</span></div>
+            </nav>
 
         </nav>
+-->
+
+
+        <nav class="navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="home.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Connect</a>
+                </li>
+            </ul>
+        </nav>
+
     </header>
 
     <main>
@@ -62,7 +83,7 @@
                                             <h4 class="card-title">Midterm Project</h4>
                                             <hr>
                                             <p class="card-text">It's a HTML, CSS web project made using media query to make it mobile responsive.</p>
-<!--                                            <a href="https://harshtheone.github.io/midterm_Gandhi_040947073/" class="btn btn-primary">View project</a>-->
+                                            <!--                                            <a href="https://harshtheone.github.io/midterm_Gandhi_040947073/" class="btn btn-primary">View project</a>-->
                                         </div>
                                     </div>
                                 </div>
@@ -95,7 +116,7 @@
                                             <h4 class="card-title">Travel Form</h4>
                                             <hr>
                                             <p class="card-text">This is a responsive travel form for customers to book their dream tickets.</p>
-<!--                                            <a href="https://harshtheone.github.io/travelForm/" class="btn btn-primary">View project</a>-->
+                                            <!--                                            <a href="https://harshtheone.github.io/travelForm/" class="btn btn-primary">View project</a>-->
                                         </div>
                                     </div>
                                 </div>
@@ -129,7 +150,7 @@
                                             <h4 class="card-title">SASS Conversion</h4>
                                             <hr>
                                             <p class="card-text">This a website project made using SASS. It is an optimized site as it's using SASS concept.</p>
-<!--                                            <a href="https://harshtheone.github.io/sass-conversion-harsh/" class="btn btn-primary">View project</a>-->
+                                            <!--                                            <a href="https://harshtheone.github.io/sass-conversion-harsh/" class="btn btn-primary">View project</a>-->
                                         </div>
                                     </div>
                                 </div>
@@ -167,7 +188,7 @@
                                             <h4 class="card-title">MAD Times</h4>
                                             <hr>
                                             <p class="card-text">The purpose was to try and learn HTML5 and CSS3 in terms of creating a nice and simple webpage design/tamplate.</p>
-<!--                                            <a href="https://harshtheone.github.io/fonts-color-layout-master/" class="btn btn-primary">View project</a>-->
+                                            <!--                                            <a href="https://harshtheone.github.io/fonts-color-layout-master/" class="btn btn-primary">View project</a>-->
                                         </div>
                                     </div>
                                 </div>
@@ -200,7 +221,7 @@
                                             <h4 class="card-title">Harsh.co.nz</h4>
                                             <hr>
                                             <p class="card-text">This site was developed by me to generate an online portfolio couple of years ago.</p>
-<!--                                            <a href="http://harsh.co.nz/" class="btn btn-primary">View project</a>-->
+                                            <!--                                            <a href="http://harsh.co.nz/" class="btn btn-primary">View project</a>-->
                                         </div>
                                     </div>
                                 </div>
@@ -234,7 +255,7 @@
                                             <h4 class="card-title">PDF to HTML</h4>
                                             <hr>
                                             <p class="card-text">A PDF file was converted into a website. Very first project of our program.</p>
-<!--                                            <a href="https://harshtheone.github.io/html-css/" class="btn btn-primary">View project</a>-->
+                                            <!--                                            <a href="https://harshtheone.github.io/html-css/" class="btn btn-primary">View project</a>-->
                                         </div>
                                     </div>
                                 </div>
@@ -264,10 +285,6 @@
 
     </main>
 
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <footer class="page-foter">
         <div class="main-footer">
@@ -325,6 +342,13 @@
         </div>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        var nav = responsiveNav(".navbar-collapse");
+    </script>
 </body>
 
 </html>
